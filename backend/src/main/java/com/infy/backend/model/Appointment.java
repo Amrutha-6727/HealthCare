@@ -5,7 +5,7 @@ import jakarta.persistence.*;
 @Entity
 @Table(name = "appointments")
 public class Appointment {
-    @Id
+    @Id //primary key 
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 

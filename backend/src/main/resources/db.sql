@@ -2,7 +2,7 @@
 -- MySQL schema and sample data for HealthCareApplication
 -- Run: mysql -u <user> -p healthdb < db.sql
 
- CREATE DATABASE IF NOT EXISTS healthdb;
+CREATE DATABASE IF NOT EXISTS healthdb;
 
 use healthdb;
 

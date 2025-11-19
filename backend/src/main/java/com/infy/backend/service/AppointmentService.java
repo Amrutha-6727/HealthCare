@@ -8,6 +8,8 @@ import java.util.List;
 
 @Service
 public class AppointmentService {
+
+
     private final AppointmentRepository appointmentRepository;
 
     public AppointmentService(AppointmentRepository appointmentRepository) {

@@ -8,3 +8,6 @@ import java.util.Optional;
 public interface CoachRepository extends JpaRepository<Coach, Long> {
     Optional<Coach> findByUsername(String username);
 }
+
+
+
